@@ -1,0 +1,29 @@
+{
+  "name": "dialogflow-fulfillment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node dist/index.js",
+    "nodemon": "nodemon --watch 'src/**/*.ts' --exec ts-node src/index.ts",
+    "dev": "ts-node-dev src/index.ts",
+    "tunnel": "ngrok http -authtoken 1Wq3AABKRRvBGseUJUKUkP31sGe_3mo69YJC1ax6xzrvHRUPp -host-header=localhost 8080"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ngrok": "^3.2.7",
+    "nodemon": "^2.0.2",
+    "ts-node-dev": "^1.0.0-pre.44"
+  },
+  "dependencies": {
+    "typed-rest-client": "^1.7.1",
+    "query-string": "^6.10.1",
+    "ts-node": "^8.6.2",
+    "typescript": "^3.7.5",
+    "actions-on-google": "^2.12.0",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  }
+}
