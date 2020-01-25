@@ -6,6 +6,7 @@ import { IRequestOptions, IHttpClientResponse } from 'typed-rest-client/Interfac
 import { Device } from "./models/device.model";
 import { Room } from "./models/room.model";
 import { Home } from "./models/home.model";
+import {Zone} from "./models/zone.model";
 
 export class OpenhabClient {
     private apiBaseUrl: string;
@@ -77,6 +78,12 @@ export class OpenhabClient {
     async getItemState(name: string): Promise<any> {
         let requestEndpoint = `api/items/${name}/state`;
         let response: IRestResponse<any> = await this.restClient.get<any>(`${this.apiBaseUrl}${requestEndpoint}`);
+        return response.result;
+    }
+
+    async getAllZones(): Promise<Zone[]> {
+        let requestEndpoint = `/api/home/zones`;
+        let response: IRestResponse<Zone[]> = await this.restClient.get<Zone[]>(`${this.apiBaseUrl}${requestEndpoint}`);
         return response.result;
     }
 

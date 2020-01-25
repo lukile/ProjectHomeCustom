@@ -4,5 +4,5 @@ export interface Zone {
     id: string;
     name: string;
     description: string;
-    rooms: Room[];
+    rooms?: Room[];
 }
