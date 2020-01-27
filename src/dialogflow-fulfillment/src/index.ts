@@ -20,31 +20,11 @@ assistant.intent('projecthomecustom.smarthome.device.state.check', async (conv, 
     let _devices: Device[];
     let _room: Room;
     let _openhabItem: Item;
+    let _state: string;
 
-    if(all) {
-        await openhabClient.getAllDevices()
-            .then(x => _devices = x.filter(d => d.type == deviceType));
+    let responseMessage: string = `State : ${_state}`;
 
-        if (!_devices || _devices.length === 0) {
-            conv.close(`Sorry, couldn't find any device of type ${deviceType}`);
-            return;
-        }
-
-        await Promise.all(_devices.map(async _device =>  {
-            let _openhabItem: Item;
-
-            await openhabClient.getItem(_device.id)
-                .then(x => _openhabItem = x);
-
-
-            let state = isNaN(+_openhabItem.state) ? _openhabItem.state : (Math.round(+_openhabItem.state * 100) / 100).toFixed(0);
-            console.log(state);
-            console.log(_openhabItem.label);
-
-            conv.close(`${_openhabItem.label} is ${state} in ${_device.room}`);
-        }));
-
-    } else {
+    if (!all) {
         await openhabClient.getAllDevices()
             .then(x => _device = x.find(d => d.room === room && d.type == deviceType));
 
@@ -62,8 +42,55 @@ assistant.intent('projecthomecustom.smarthome.device.state.check', async (conv, 
         let state = isNaN(+_openhabItem.state) ? _openhabItem.state : (Math.round(+_openhabItem.state * 100) / 100).toFixed(0);
         // close conversation
         conv.close(`${deviceType} is ${state} in ${_room.description}`);
+    } else {
+        await openhabClient.getAllDevices()
+            .then(x => _devices = x.filter(d => d.type == deviceType));
+
+        if (!_devices || _devices.length === 0) {
+            conv.close(`Sorry, couldn't find any device of type ${deviceType}`);
+            return;
+        }
+
+        await Promise.all(_devices.map(async _device => {
+            let _openhabItem: Item;
+            let initialState: String;
+            let bidon: String = "OPEN";
+            // get the initial state
+            await openhabClient.getItem(_device.id)
+                .then(x => {
+                    _openhabItem = x;
+                    initialState = isNaN(+_openhabItem.state) ? _openhabItem.state : (Math.round(+_openhabItem.state * 100) / 100).toFixed(0);
+                    console.log("Coucouuuuu");
+                });
+            //(async _ => {
+            // re-fetch updated state
+            console.log("getItem");
+            await openhabClient.getItem(_device.id).then(x => x.state)
+                .then(resp => {
+                    //x => _devices = x.filter(d => d.type == deviceType);
+                    console.log(`deviceType: ${initialState}`);
+                    responseMessage.concat(`=> ${bidon} has benn updated from ${initialState}  \n`);
+                    //conv.close(`Sorry, couldn't find any device of type ${deviceType}`);
+                });
+            conv.close(`Sorry, couldn't find any device of type ${deviceType}`);
+            //})
+            ;
+
+            // send command |or| update state
+
+            //responseMessage.concat(`=> ${deviceType} has benn updated from ${initialState} to ${updatedState}  \n`);
+            //responseMessage = responseMessage.concat(`=> ${deviceType} has benn updated from ${initialState} to ${updatedState}  \n`);
+        }));
+
+        // conv.close(`${_openhabItem.label} is ${state} in ${_device.room}`);
+        //responseMessage.concat(`=> ${deviceType} has benn updated from ${_state} \n`);
+        //responseMessage = responseMessage.concat(`=> ${deviceType} has benn updated from ${_state}  \n`);
+
+
     }
 });
+
+
 
 assistant.intent('projecthomecustom.smarthome.device.command', async (conv, { room, deviceType, command, value }) => {
     let _device: Device;
