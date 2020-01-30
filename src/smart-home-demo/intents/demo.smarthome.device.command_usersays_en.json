@@ -1,0 +1,146 @@
+[
+  {
+    "id": "98f684d0-cd16-41b0-9911-dc559d461370",
+    "data": [
+      {
+        "text": "power ",
+        "userDefined": false
+      },
+      {
+        "text": "on",
+        "alias": "command",
+        "meta": "@command",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "fan",
+        "alias": "deviceType",
+        "meta": "@deviceType",
+        "userDefined": false
+      },
+      {
+        "text": " in the ",
+        "userDefined": false
+      },
+      {
+        "text": "toilet",
+        "alias": "room",
+        "meta": "@room",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "129b5a97-d902-4575-9e92-768d811bbc38",
+    "data": [
+      {
+        "text": "set ",
+        "userDefined": false
+      },
+      {
+        "text": "roller shutter",
+        "alias": "deviceType",
+        "meta": "@deviceType",
+        "userDefined": false
+      },
+      {
+        "text": " to ",
+        "userDefined": false
+      },
+      {
+        "text": "40",
+        "alias": "value",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " in the ",
+        "userDefined": false
+      },
+      {
+        "text": "terrace",
+        "alias": "room",
+        "meta": "@room",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "379d6169-af2c-4279-9e33-c7458d882125",
+    "data": [
+      {
+        "text": "Down",
+        "alias": "command",
+        "meta": "@command",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "heating",
+        "alias": "deviceType",
+        "meta": "@deviceType",
+        "userDefined": false
+      },
+      {
+        "text": " in ",
+        "userDefined": false
+      },
+      {
+        "text": "master bedroom",
+        "alias": "room",
+        "meta": "@room",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "66b62e7f-21dd-4b2d-8ffb-34602b7eca89",
+    "data": [
+      {
+        "text": "switch on",
+        "alias": "command",
+        "meta": "@command",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "light",
+        "alias": "deviceType",
+        "meta": "@deviceType",
+        "userDefined": false
+      },
+      {
+        "text": " in the ",
+        "userDefined": false
+      },
+      {
+        "text": "living room",
+        "alias": "room",
+        "meta": "@room",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

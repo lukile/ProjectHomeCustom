@@ -1,0 +1,24 @@
+[
+  {
+    "value": "Cellar",
+    "synonyms": [
+      "Cellar",
+      "Home_C"
+    ]
+  },
+  {
+    "value": "GroundFloor",
+    "synonyms": [
+      "GroundFloor",
+      "Ground Floor",
+      "Home_GF"
+    ]
+  },
+  {
+    "value": "Outside",
+    "synonyms": [
+      "Outside",
+      "Home_OU"
+    ]
+  }
+]

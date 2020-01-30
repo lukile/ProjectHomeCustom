@@ -1,0 +1,286 @@
+[
+  {
+    "id": "bf52ee9a-a659-44e9-981c-628872a369b7",
+    "data": [
+      {
+        "text": "report ",
+        "userDefined": false
+      },
+      {
+        "text": "air conditioner",
+        "alias": "deviceType",
+        "meta": "@deviceType",
+        "userDefined": false
+      },
+      {
+        "text": " state in ",
+        "userDefined": false
+      },
+      {
+        "text": "master bedroom",
+        "alias": "room",
+        "meta": "@room",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ab90d8e2-b5af-42ae-9f84-737c3e844b87",
+    "data": [
+      {
+        "text": "check the status of ",
+        "userDefined": false
+      },
+      {
+        "text": "all",
+        "alias": "all",
+        "meta": "@all",
+        "userDefined": false
+      },
+      {
+        "text": " the ",
+        "userDefined": false
+      },
+      {
+        "text": "lights",
+        "alias": "deviceType",
+        "meta": "@deviceType",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c7fa9719-7e53-4a5b-89d2-2adc09a804e3",
+    "data": [
+      {
+        "text": "kitchen",
+        "alias": "room",
+        "meta": "@room",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "lights",
+        "alias": "deviceType",
+        "meta": "@deviceType",
+        "userDefined": true
+      },
+      {
+        "text": " status",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b343bb13-5124-4be9-8205-97bf73af0156",
+    "data": [
+      {
+        "text": "the ",
+        "userDefined": false
+      },
+      {
+        "text": "office",
+        "alias": "room",
+        "meta": "@room",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "lights",
+        "alias": "deviceType",
+        "meta": "@deviceType",
+        "userDefined": true
+      },
+      {
+        "text": " status",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d94cb1f4-1073-4b6a-8ec8-0bc90f2188e5",
+    "data": [
+      {
+        "text": "report ",
+        "userDefined": false
+      },
+      {
+        "text": "light",
+        "alias": "deviceType",
+        "meta": "@deviceType",
+        "userDefined": false
+      },
+      {
+        "text": " status in the ",
+        "userDefined": false
+      },
+      {
+        "text": "living room",
+        "alias": "room",
+        "meta": "@room",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "7fcdfef0-836d-41b5-aaaa-637fc43d1160",
+    "data": [
+      {
+        "text": "check the status of the ",
+        "userDefined": false
+      },
+      {
+        "text": "fan",
+        "alias": "deviceType",
+        "meta": "@deviceType",
+        "userDefined": false
+      },
+      {
+        "text": " in the ",
+        "userDefined": false
+      },
+      {
+        "text": "bathroom",
+        "alias": "room",
+        "meta": "@room",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ffb9b3b9-1587-42c0-a57f-0d3441479b8a",
+    "data": [
+      {
+        "text": "give me the ",
+        "userDefined": false
+      },
+      {
+        "text": "heating",
+        "alias": "deviceType",
+        "meta": "@deviceType",
+        "userDefined": false
+      },
+      {
+        "text": " state in ",
+        "userDefined": false
+      },
+      {
+        "text": "master bedroom",
+        "alias": "room",
+        "meta": "@room",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "fdc4f16b-db3e-4c38-a71a-4d6879a7b2af",
+    "data": [
+      {
+        "text": "what is the ",
+        "userDefined": false
+      },
+      {
+        "text": "temperature",
+        "alias": "deviceType",
+        "meta": "@deviceType",
+        "userDefined": false
+      },
+      {
+        "text": " in the ",
+        "userDefined": false
+      },
+      {
+        "text": "living room",
+        "alias": "room",
+        "meta": "@room",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d1af6c39-5086-45a3-82cd-654ce948d97b",
+    "data": [
+      {
+        "text": "humidity",
+        "alias": "deviceType",
+        "meta": "@deviceType",
+        "userDefined": false
+      },
+      {
+        "text": " in the ",
+        "userDefined": false
+      },
+      {
+        "text": "toilet",
+        "alias": "room",
+        "meta": "@room",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "22247c8e-0e16-44b5-a451-f5088f331bb0",
+    "data": [
+      {
+        "text": "tell me about ",
+        "userDefined": false
+      },
+      {
+        "text": "all",
+        "alias": "all",
+        "meta": "@all",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "air conditioners",
+        "alias": "deviceType",
+        "meta": "@deviceType",
+        "userDefined": false
+      },
+      {
+        "text": " states",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

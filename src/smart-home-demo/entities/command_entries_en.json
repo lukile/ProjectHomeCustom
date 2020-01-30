@@ -1,0 +1,28 @@
+[
+  {
+    "value": "N",
+    "synonyms": [
+      "N"
+    ]
+  },
+  {
+    "value": "ON",
+    "synonyms": [
+      "ON",
+      "Power up",
+      "Open",
+      "Switch on",
+      "Up"
+    ]
+  },
+  {
+    "value": "OFF",
+    "synonyms": [
+      "OFF",
+      "Power off",
+      "Close",
+      "Switch off",
+      "down"
+    ]
+  }
+]

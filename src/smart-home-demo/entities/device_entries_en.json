@@ -1,0 +1,434 @@
+[
+  {
+    "value": "Home_C_LaundryRoom_Power",
+    "synonyms": [
+      "Home_C_LaundryRoom_Power",
+      "LaundryRoomPowerOutlet",
+      "Laundry Room Power Outlet"
+    ]
+  },
+  {
+    "value": "Home_GF_Kitchen_Light",
+    "synonyms": [
+      "Home_GF_Kitchen_Light",
+      "KitchenLight",
+      "Kitchen Light"
+    ]
+  },
+  {
+    "value": "Home_GF_MasterBedroom_AirCon",
+    "synonyms": [
+      "Home_GF_MasterBedroom_AirCon",
+      "MasterBedroomAirConditioner",
+      "Master Bedroom Air Conditioner"
+    ]
+  },
+  {
+    "value": "Home_GF_Bathroom_Heating",
+    "synonyms": [
+      "Home_GF_Bathroom_Heating",
+      "BathroomHeating",
+      "Bathroom Heating"
+    ]
+  },
+  {
+    "value": "Home_C_Office_Motion",
+    "synonyms": [
+      "Home_C_Office_Motion",
+      "OfficeMotion",
+      "Office Motion"
+    ]
+  },
+  {
+    "value": "Home_GF_LivingRoom_Motion",
+    "synonyms": [
+      "Home_GF_LivingRoom_Motion",
+      "LivingRoomMotion",
+      "Living Room Motion"
+    ]
+  },
+  {
+    "value": "Home_GF_LivingRoom_Heating",
+    "synonyms": [
+      "Home_GF_LivingRoom_Heating",
+      "LivingRoomHeating",
+      "Living Room Heating"
+    ]
+  },
+  {
+    "value": "Home_GF_Bathroom_Humidity",
+    "synonyms": [
+      "Home_GF_Bathroom_Humidity",
+      "BathroomHumidity",
+      "Bathroom Humidity"
+    ]
+  },
+  {
+    "value": "Home_C_LaundryRoom_Light",
+    "synonyms": [
+      "Home_C_LaundryRoom_Light",
+      "LaundryRoomLight",
+      "Laundry Room Light"
+    ]
+  },
+  {
+    "value": "Home_GF_Kitchen_Humidity",
+    "synonyms": [
+      "Home_GF_Kitchen_Humidity",
+      "KitchenHumidity",
+      "Kitchen Humidity"
+    ]
+  },
+  {
+    "value": "Home_GF_Toilet_Light",
+    "synonyms": [
+      "Home_GF_Toilet_Light",
+      "ToiletLight",
+      "Toilet Light"
+    ]
+  },
+  {
+    "value": "Home_C_Office_Light",
+    "synonyms": [
+      "Home_C_Office_Light",
+      "OfficeLight",
+      "Office Light"
+    ]
+  },
+  {
+    "value": "Home_GF_Kitchen_Power",
+    "synonyms": [
+      "Home_GF_Kitchen_Power",
+      "KitchenPowerOutlet",
+      "Kitchen Power Outlet"
+    ]
+  },
+  {
+    "value": "Home_OU_Terrace_Power",
+    "synonyms": [
+      "Home_OU_Terrace_Power",
+      "TerracePowerOutlet",
+      "Terrace Power Outlet"
+    ]
+  },
+  {
+    "value": "Home_OU_Terrace_Light",
+    "synonyms": [
+      "Home_OU_Terrace_Light",
+      "TerraceLight",
+      "Terrace Light"
+    ]
+  },
+  {
+    "value": "Home_GF_Kitchen_Temperature",
+    "synonyms": [
+      "Home_GF_Kitchen_Temperature",
+      "KitchenTemperature",
+      "Kitchen Temperature"
+    ]
+  },
+  {
+    "value": "Home_GF_Bathroom_Light",
+    "synonyms": [
+      "Home_GF_Bathroom_Light",
+      "BathroomLight",
+      "Bathroom Light"
+    ]
+  },
+  {
+    "value": "Home_GF_Entryway_Door",
+    "synonyms": [
+      "Home_GF_Entryway_Door",
+      "EntrywayDoor",
+      "Entryway Door"
+    ]
+  },
+  {
+    "value": "Home_GF_LivingRoom_Temperature",
+    "synonyms": [
+      "Home_GF_LivingRoom_Temperature",
+      "LivingRoomTemperature",
+      "Living Room Temperature"
+    ]
+  },
+  {
+    "value": "Home_GF_Toilet_Power",
+    "synonyms": [
+      "Home_GF_Toilet_Power",
+      "ToiletPowerOutlet",
+      "Toilet Power Outlet"
+    ]
+  },
+  {
+    "value": "Home_GF_Bathroom_Power",
+    "synonyms": [
+      "Home_GF_Bathroom_Power",
+      "BathroomPowerOutlet",
+      "Bathroom Power Outlet"
+    ]
+  },
+  {
+    "value": "Home_GF_Toilet_Temperature",
+    "synonyms": [
+      "Home_GF_Toilet_Temperature",
+      "ToiletTemperature",
+      "Toilet Temperature"
+    ]
+  },
+  {
+    "value": "Home_GF_MasterBedroom_Blind",
+    "synonyms": [
+      "Home_GF_MasterBedroom_Blind",
+      "MasterBedroomBlind",
+      "Master Bedroom Blind"
+    ]
+  },
+  {
+    "value": "Home_GF_Kitchen_Fan",
+    "synonyms": [
+      "Home_GF_Kitchen_Fan",
+      "KitchenFan",
+      "Kitchen Fan"
+    ]
+  },
+  {
+    "value": "Home_OU_FrontYard_Light",
+    "synonyms": [
+      "Home_OU_FrontYard_Light",
+      "FrontYardLight",
+      "Front Yard Light"
+    ]
+  },
+  {
+    "value": "Home_GF_MasterBedroom_Door",
+    "synonyms": [
+      "Home_GF_MasterBedroom_Door",
+      "MasterBedroomDoor",
+      "Master Bedroom Door"
+    ]
+  },
+  {
+    "value": "Home_GF_Toilet_Humidity",
+    "synonyms": [
+      "Home_GF_Toilet_Humidity",
+      "ToiletHumidity",
+      "Toilet Humidity"
+    ]
+  },
+  {
+    "value": "Home_OU_Terrace_Shutter",
+    "synonyms": [
+      "Home_OU_Terrace_Shutter",
+      "TerraceRollerShutter",
+      "Terrace Roller Shutter"
+    ]
+  },
+  {
+    "value": "Home_GF_LivingRoom_AirCon",
+    "synonyms": [
+      "Home_GF_LivingRoom_AirCon",
+      "LivingRoomAirConditioner",
+      "Living Room Air Conditioner"
+    ]
+  },
+  {
+    "value": "Home_GF_LivingRoom_Light",
+    "synonyms": [
+      "Home_GF_LivingRoom_Light",
+      "LivingRoomLight",
+      "Living Room Light"
+    ]
+  },
+  {
+    "value": "Home_GF_Entryway_Motion",
+    "synonyms": [
+      "Home_GF_Entryway_Motion",
+      "EntrywayMotion",
+      "Entryway Motion"
+    ]
+  },
+  {
+    "value": "Home_GF_Kitchen_Motion",
+    "synonyms": [
+      "Home_GF_Kitchen_Motion",
+      "KitchenMotion",
+      "Kitchen Motion"
+    ]
+  },
+  {
+    "value": "Home_GF_Bathroom_Temperature",
+    "synonyms": [
+      "Home_GF_Bathroom_Temperature",
+      "BathroomTemperature",
+      "Bathroom Temperature"
+    ]
+  },
+  {
+    "value": "Home_GF_Bathroom_Window",
+    "synonyms": [
+      "Home_GF_Bathroom_Window",
+      "BathroomWindow",
+      "Bathroom Window"
+    ]
+  },
+  {
+    "value": "Home_GF_Entryway_Window",
+    "synonyms": [
+      "Home_GF_Entryway_Window",
+      "EntrywayWindow",
+      "Entryway Window"
+    ]
+  },
+  {
+    "value": "Home_GF_Entryway_Power",
+    "synonyms": [
+      "Home_GF_Entryway_Power",
+      "EntrywayPowerOutlet",
+      "Entryway Power Outlet"
+    ]
+  },
+  {
+    "value": "Home_GF_LivingRoom_Power",
+    "synonyms": [
+      "Home_GF_LivingRoom_Power",
+      "LivingRoomPowerOutlet",
+      "Living Room Power Outlet"
+    ]
+  },
+  {
+    "value": "Home_GF_LivingRoom_Door",
+    "synonyms": [
+      "Home_GF_LivingRoom_Door",
+      "LivingRoomDoor",
+      "Living Room Door"
+    ]
+  },
+  {
+    "value": "Home_GF_Entryway_Light",
+    "synonyms": [
+      "Home_GF_Entryway_Light",
+      "EntrywayLight",
+      "Entryway Light"
+    ]
+  },
+  {
+    "value": "Home_C_LaundryRoom_Humidity",
+    "synonyms": [
+      "Home_C_LaundryRoom_Humidity",
+      "LaundryRoomHumidity",
+      "Laundry Room Humidity"
+    ]
+  },
+  {
+    "value": "Home_GF_MasterBedroom_Heating",
+    "synonyms": [
+      "Home_GF_MasterBedroom_Heating",
+      "MasterBedroomHeating",
+      "Master Bedroom Heating"
+    ]
+  },
+  {
+    "value": "Home_GF_Bathroom_Fan",
+    "synonyms": [
+      "Home_GF_Bathroom_Fan",
+      "BathroomFan",
+      "Bathroom Fan"
+    ]
+  },
+  {
+    "value": "Home_GF_MasterBedroom_Motion",
+    "synonyms": [
+      "Home_GF_MasterBedroom_Motion",
+      "MasterBedroomMotion",
+      "Master Bedroom Motion"
+    ]
+  },
+  {
+    "value": "Home_GF_LivingRoom_Window",
+    "synonyms": [
+      "Home_GF_LivingRoom_Window",
+      "LivingRoomWindow",
+      "Living Room Window"
+    ]
+  },
+  {
+    "value": "Home_OU_Terrace_Door",
+    "synonyms": [
+      "Home_OU_Terrace_Door",
+      "TerraceDoor",
+      "Terrace Door"
+    ]
+  },
+  {
+    "value": "Home_GF_MasterBedroom_Humidity",
+    "synonyms": [
+      "Home_GF_MasterBedroom_Humidity",
+      "MasterBedroomHumidity",
+      "Master Bedroom Humidity"
+    ]
+  },
+  {
+    "value": "Home_GF_LivingRoom_Blind",
+    "synonyms": [
+      "Home_GF_LivingRoom_Blind",
+      "LivingRoomBlind",
+      "Living Room Blind"
+    ]
+  },
+  {
+    "value": "Home_GF_MasterBedroom_Power",
+    "synonyms": [
+      "Home_GF_MasterBedroom_Power",
+      "MasterBedroomPowerOutlet",
+      "Master Bedroom Power Outlet"
+    ]
+  },
+  {
+    "value": "Home_C_Office_Power",
+    "synonyms": [
+      "Home_C_Office_Power",
+      "OfficePowerOutlet",
+      "Office Power Outlet"
+    ]
+  },
+  {
+    "value": "Home_GF_MasterBedroom_Temperature",
+    "synonyms": [
+      "Home_GF_MasterBedroom_Temperature",
+      "MasterBedroomTemperature",
+      "Master Bedroom Temperature"
+    ]
+  },
+  {
+    "value": "Home_GF_Toilet_Window",
+    "synonyms": [
+      "Home_GF_Toilet_Window",
+      "ToiletWindow",
+      "Toilet Window"
+    ]
+  },
+  {
+    "value": "Home_OU_FrontYard_Door",
+    "synonyms": [
+      "Home_OU_FrontYard_Door",
+      "FrontYardDoor",
+      "Front Yard Door"
+    ]
+  },
+  {
+    "value": "Home_GF_Toilet_Fan",
+    "synonyms": [
+      "Home_GF_Toilet_Fan",
+      "ToiletFan",
+      "Toilet Fan"
+    ]
+  },
+  {
+    "value": "Home_GF_MasterBedroom_Light",
+    "synonyms": [
+      "Home_GF_MasterBedroom_Light",
+      "MasterBedroomLight",
+      "Master Bedroom Light"
+    ]
+  }
+]

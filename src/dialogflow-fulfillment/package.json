@@ -7,7 +7,7 @@
     "start": "tsc && node dist/index.js",
     "nodemon": "nodemon --watch 'src/**/*.ts' --exec ts-node src/index.ts",
     "dev": "ts-node-dev src/index.ts",
-    "tunnel": "ngrok http -authtoken 1Wq3AABKRRvBGseUJUKUkP31sGe_3mo69YJC1ax6xzrvHRUPp -host-header=localhost 8080"
+    "tunnel": "ngrok http -authtoken 7bFodzUj4U4TgVC2XFMX1_39ByPB9MqBp7M7gBLaTq3 -host-header=localhost 8080"
   },
   "keywords": [],
   "author": "",

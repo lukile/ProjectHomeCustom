@@ -1,0 +1,81 @@
+{
+  "id": "b39c5f4f-86b7-4f33-8570-0797dac46503",
+  "name": "demo.smarthome.device.command",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smarthome.device.command",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "a388bb24-f275-429a-b6ed-5fbe3bef74ac",
+          "required": false,
+          "dataType": "@command",
+          "name": "command",
+          "value": "$command",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "a24d8461-3e09-4b96-b4fa-11ead7cd05e8",
+          "required": false,
+          "dataType": "@deviceType",
+          "name": "deviceType",
+          "value": "$deviceType",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "fffcf7f4-994f-444c-afa2-b0a4354139e6",
+          "required": false,
+          "dataType": "@room",
+          "name": "room",
+          "value": "$room",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "05abb919-0e7f-4eb4-b572-378c59aac05b",
+          "required": false,
+          "dataType": "@sys.number",
+          "name": "value",
+          "value": "$value",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

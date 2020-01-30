@@ -1,0 +1,96 @@
+[
+  {
+    "value": "PowerOutlet",
+    "synonyms": [
+      "PowerOutlet",
+      "Power Outlet",
+      "power outlets"
+    ]
+  },
+  {
+    "value": "Light",
+    "synonyms": [
+      "Light",
+      "lights"
+    ]
+  },
+  {
+    "value": "AirConditioner",
+    "synonyms": [
+      "AirConditioner",
+      "Air Conditioner",
+      "air conditioners"
+    ]
+  },
+  {
+    "value": "Heating",
+    "synonyms": [
+      "Heating",
+      "heatings"
+    ]
+  },
+  {
+    "value": "Motion",
+    "synonyms": [
+      "Motion",
+      "motions",
+      "motion sensor",
+      "motion sensors",
+      "motion detector",
+      "motion detectors",
+      "presence"
+    ]
+  },
+  {
+    "value": "Humidity",
+    "synonyms": [
+      "Humidity",
+      "humidity"
+    ]
+  },
+  {
+    "value": "Temperature",
+    "synonyms": [
+      "Temperature",
+      "temperature"
+    ]
+  },
+  {
+    "value": "Door",
+    "synonyms": [
+      "Door",
+      "doors"
+    ]
+  },
+  {
+    "value": "Blind",
+    "synonyms": [
+      "Blind",
+      "blinds"
+    ]
+  },
+  {
+    "value": "Fan",
+    "synonyms": [
+      "Fan",
+      "fans"
+    ]
+  },
+  {
+    "value": "RollerShutter",
+    "synonyms": [
+      "RollerShutter",
+      "Roller Shutter",
+      "roller shutters",
+      "rollers",
+      "roller"
+    ]
+  },
+  {
+    "value": "Window",
+    "synonyms": [
+      "Window",
+      "windows"
+    ]
+  }
+]

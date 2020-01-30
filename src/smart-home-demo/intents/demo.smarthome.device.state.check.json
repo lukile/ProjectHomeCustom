@@ -1,0 +1,83 @@
+{
+  "id": "9a9c21ea-1ed3-4199-9c64-a0a85130ec82",
+  "name": "demo.smarthome.device.state.check",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smarthome.device.state.check",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "18013846-8b2f-45c2-9fca-4260e113fbb2",
+          "required": true,
+          "dataType": "@deviceType",
+          "name": "deviceType",
+          "value": "$deviceType",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "what device state do you want to check ?"
+            },
+            {
+              "lang": "en",
+              "value": "what devices you want to check in $room ?"
+            },
+            {
+              "lang": "en",
+              "value": "witch device do I have to check ?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "75d5d180-7bf9-45c1-b328-1d63c1fc6be5",
+          "required": false,
+          "dataType": "@room",
+          "name": "room",
+          "value": "$room",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "65267af4-b865-4f5e-9342-d2f78929302c",
+          "required": false,
+          "dataType": "@all",
+          "name": "all",
+          "value": "$all",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

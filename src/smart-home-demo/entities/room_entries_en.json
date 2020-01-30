@@ -1,0 +1,76 @@
+[
+  {
+    "value": "FrontYard",
+    "synonyms": [
+      "FrontYard",
+      "Front Yard",
+      "Home_OU_FrontYard"
+    ]
+  },
+  {
+    "value": "Toilet",
+    "synonyms": [
+      "Toilet",
+      "Home_GF_Toilet"
+    ]
+  },
+  {
+    "value": "Terrace",
+    "synonyms": [
+      "Terrace",
+      "Home_OU_Terrace"
+    ]
+  },
+  {
+    "value": "Office",
+    "synonyms": [
+      "Office",
+      "Home_C_Office"
+    ]
+  },
+  {
+    "value": "Bathroom",
+    "synonyms": [
+      "Bathroom",
+      "Home_GF_Bathroom"
+    ]
+  },
+  {
+    "value": "MasterBedroom",
+    "synonyms": [
+      "MasterBedroom",
+      "Master Bedroom",
+      "Home_GF_MasterBedroom"
+    ]
+  },
+  {
+    "value": "Entryway",
+    "synonyms": [
+      "Entryway",
+      "Home_GF_Entryway"
+    ]
+  },
+  {
+    "value": "Kitchen",
+    "synonyms": [
+      "Kitchen",
+      "Home_GF_Kitchen"
+    ]
+  },
+  {
+    "value": "LivingRoom",
+    "synonyms": [
+      "LivingRoom",
+      "Living Room",
+      "Home_GF_LivingRoom"
+    ]
+  },
+  {
+    "value": "LaundryRoom",
+    "synonyms": [
+      "LaundryRoom",
+      "Laundry Room",
+      "Home_C_LaundryRoom"
+    ]
+  }
+]

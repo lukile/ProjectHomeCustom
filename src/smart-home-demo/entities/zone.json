@@ -1,0 +1,9 @@
+{
+  "id": "2ea79a1d-dfc3-496b-9510-65443f5820a3",
+  "name": "zone",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}
