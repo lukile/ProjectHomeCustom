@@ -2,7 +2,9 @@
 
 ## :bulb: dialogflow Rich Responses
 
-### : Screenshots 
+### :Screenshots 
+
+![GitHub Logo](/img-dialogflow/deploiement-Assistant.png)
 
 <p align="center">
   <img src="/img-dialogflow/deploiement-Assistant.png">
