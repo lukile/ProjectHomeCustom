@@ -4,18 +4,16 @@
 
 ### :Screenshots 
 
-![GitHub Logo](/img-dialogflow/deploiement-Assistant.png)
-
 <p align="center">
-  <img src="/img-dialogflow/deploiement-Assistant.png">
+  <img src="./img-dialogflow/deploiement-Assistant.png">
 </p>
 
 <p align="center">
-  <img src="/img-dialogflow/carousel.png">
+  <img src="./img-dialogflow/carousel.png">
 </p>
 
 <p align="center">
-  <img src="/img-dialogflow/BasicCard.png">
+  <img src="./img-dialogflow/BasicCard.png">
 </p>
 
 <p align="center">
