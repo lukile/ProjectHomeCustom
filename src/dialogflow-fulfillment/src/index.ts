@@ -81,7 +81,7 @@ assistant.intent('projecthomecustom.smarthome.device.state.check', async (conv, 
     }
 });
 
-// OK
+// 
 assistant.intent('projecthomecustom.smarthome.zone.state.check', async(conv, { zone, deviceType, value, all }) => {
     let _devices: Device[];
     let _zone: Zone;
@@ -211,15 +211,14 @@ assistant.intent('projecthomecustom.smarthome.zone.command', async (conv, { zone
 
     // here, al least one device is found
     let responseMessage: string = `Zone: ${zone}  \n`;
-
     let updatedState: string;
     let _richResponse;
 
     await Promise.all(_devices.map(async _device => {
         let _openhabItem: Item;
         // get the initial state
-        await openhabClient.getItem(_device.id)
-            .then(x => _openhabItem = x);
+        await openhabClient.getItem(_device.id).then(x => _openhabItem = x);
+
         let initialState = isNaN(+_openhabItem.state) ? _openhabItem.state : (Math.round(+_openhabItem.state * 100) / 100).toFixed(0);
 
         // send command |or| update state
@@ -228,6 +227,7 @@ assistant.intent('projecthomecustom.smarthome.zone.command', async (conv, { zone
                 // re-fetch updated state
                 await openhabClient.getItem(_device.id).then(x => updatedState = x.state);
             });
+
         responseMessage.concat(`=> ${deviceType} has been updated from ${initialState} to ${updatedState}  \n`);
         responseMessage = responseMessage.concat(`=> ${deviceType} has been updated from ${initialState} to ${updatedState}  \n`);
 
@@ -236,14 +236,11 @@ assistant.intent('projecthomecustom.smarthome.zone.command', async (conv, { zone
                 image: new Image({ 
                     url: 'https://image.noelshack.com/fichiers/2020/05/4/1580397491-pouet.jpg',
                     alt: 'Maison Logo' 
-                }),
-                buttons: new Button({
-                    title: 'Watch',
-                    url: 'https://angularfirebase.com/lessons',
                 })
         });
 
     }));
+    
     // close conversation
     //if (conv.surface.capabilities.has('actions.capability.SCREEN_OUTPUT') && conv.surface.capabilities.has('actions.capability.WEB_BROWSER')) {
         conv.ask('here is what I found little human ...')
