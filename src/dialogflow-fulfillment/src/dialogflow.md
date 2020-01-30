@@ -17,17 +17,17 @@
 </p>
 
 <p align="center">
-  <img src="/img-dialogflow/facebookResponse.png">
+  <img src="./img-dialogflow/facebookResponse.png">
 </p>
 
 <p align="center">
-  <img src="/img-dialogflow/slackCard.png">
+  <img src="./img-dialogflow/slackCard.png">
 </p>
 
 <p align="center">
-  <img src="/img-dialogflow/slackCustomResponse.png">
+  <img src="./img-dialogflow/slackCustomResponse.png">
 </p>
 
 <p align="center">
-  <img src="/img-dialogflow/simpleResponse.png">
+  <img src="./img-dialogflow/simpleResponse.png">
 </p>
