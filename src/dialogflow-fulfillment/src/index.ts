@@ -109,11 +109,12 @@ assistant.intent('projecthomecustom.smarthome.zone.state.check', async(conv, { z
                 responseMessage = responseMessage.concat(`in ${_device.room} state is ${_openhabItem.state} \n`);
             });
     }));
-
-    conv.ask(new SimpleResponse({
+    
+    conv.ask(new SimpleResponse({   
         text: responseMessage,
         speech: 'This action is well done !'
     }));
+
 });
 
 //OK
@@ -183,6 +184,7 @@ assistant.intent('projecthomecustom.smarthome.device.command', async (conv, { ro
     //}
 });
 
+//OK
 assistant.intent('projecthomecustom.smarthome.zone.command', async (conv, { zone, deviceType, command, value, all }) => {
     let _devices: Device[];
     let _zone: Zone;
@@ -240,7 +242,7 @@ assistant.intent('projecthomecustom.smarthome.zone.command', async (conv, { zone
         });
 
     }));
-    
+
     // close conversation
     //if (conv.surface.capabilities.has('actions.capability.SCREEN_OUTPUT') && conv.surface.capabilities.has('actions.capability.WEB_BROWSER')) {
         conv.ask('here is what I found little human ...')
