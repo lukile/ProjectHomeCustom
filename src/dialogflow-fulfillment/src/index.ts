@@ -1,6 +1,6 @@
 import express from 'express';
 import * as bodyParser from 'body-parser';
-import {dialogflow, actionssdk, Image, Carousel, BasicCard, Button, SimpleResponse} from 'actions-on-google';
+import {dialogflow, actionssdk, Image, Carousel, List, BasicCard, Button, SimpleResponse} from 'actions-on-google';
 import { OpenhabClient } from './openhabClient'
 import { Item } from './models/openhab/item.model';
 import { Device } from "./models/device.model";
@@ -35,6 +35,7 @@ assistant.intent('projecthomecustom.smarthome.device.state.check', async (conv, 
             .then(x => _openhabItem = x);
         let state = isNaN(+_openhabItem.state) ? _openhabItem.state : (Math.round(+_openhabItem.state * 100) / 100).toFixed(0);
         conv.close(`${deviceType} is ${state} in ${_room.description}`);
+
     } else {
         let responseMessage: string = "State : \n";
 
@@ -61,6 +62,13 @@ assistant.intent('projecthomecustom.smarthome.device.state.check', async (conv, 
             text: responseMessage,
             speech: 'Are you talking to me ?'
         }));
+        /*conv.close(new BasicCard({
+            title: responseMessage,
+            image: new Image({
+                url: 'https://goo.gl/Fz9nrQ',
+                alt: 'AngularFirebase Logo'
+            })
+        }));*/
     }
 });
 
@@ -86,7 +94,17 @@ assistant.intent('projecthomecustom.smarthome.device.command', async (conv, { ro
         .then(async _ => {
             await openhabClient.getItem(_device.id).then(x => updatedState = x.state);
         });
-    conv.close(`${deviceType} in ${_room.description} has benn updated from ${initialState} to ${updatedState}`);
+
+    console.log("command:", command);
+    if (conv.surface.capabilities.has('actions.capability.SCREEN_OUTPUT') && conv.surface.capabilities.has('actions.capability.WEB_BROWSER')) {
+
+        conv.close(new SimpleResponse({
+            text: 'responseMessage',
+            speech: `${deviceType} in ${_room.description} has been updated from ${initialState} to ${updatedState}`
+        }));
+    } else {
+        conv.close(`${deviceType} in ${_room.description} has been updated`);
+    }
 });
 
 assistant.intent('projecthomecustom.smarthome.zone.state.check', async(conv, { zone, deviceType, value, all }) => {
@@ -120,6 +138,18 @@ assistant.intent('projecthomecustom.smarthome.zone.state.check', async(conv, { z
         text: responseMessage,
         speech: 'Are you talking to me ?'
     }));
+
+    /*conv.close(new BasicCard({
+        title: responseMessage,
+        image: new Image({
+            url: 'https://goo.gl/Fz9nrQ',
+            alt: 'AngularFirebase Logo'
+        }),
+        buttons: new Button({
+            title: 'Watch',
+            url: 'https://angularfirebase.com/lessons',
+        }),
+    }));*/
 });
 
 assistant.intent('projecthomecustom.smarthome.zone.command', async (conv, { zone, deviceType, command, value, all }) => {
@@ -167,6 +197,18 @@ assistant.intent('projecthomecustom.smarthome.zone.command', async (conv, { zone
         text: responseMessage,
         speech: 'Are you talking to me ?'
     }));
+
+    /*conv.close(new BasicCard({
+        title: responseMessage,
+        image: new Image({
+            url: 'https://goo.gl/Fz9nrQ',
+            alt: 'AngularFirebase Logo'
+        }),
+        buttons: new Button({
+            title: 'Watch',
+            url: 'https://angularfirebase.com/lessons',
+        }),
+    }));*/
 });
 
 server.post('/webhook', assistant);
